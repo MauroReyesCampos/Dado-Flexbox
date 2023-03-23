@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(49, 51, 51);
+}
+
+.dado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  height: 250px;
+}
+
+/* Cara con el numero 1 */
+.cara-1 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cara-1 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* Cara con el numero 2 */
+.cara-2 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cara-2-div-punto-1 {
+  display: flex;
+}
+
+.cara-2-div-punto-1 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.cara-2-div-punto-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cara-2-div-punto-2 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+/* Cara con el numero 3 */
+.cara-3 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cara-3-div-punto-1 {
+  display: flex;
+  height: 100%;
+}
+
+.cara-3-div-punto-1 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.cara-3-div-punto-2 {
+  display: flex;
+}
+
+.cara-3-div-punto-2 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.cara-3-div-punto-3 {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.cara-3-div-punto-3 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Cara con el numero 4 */
+.cara-4 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.cara-4-div-punto-1-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cara-4-div-punto-1-2 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.cara-4-div-punto-3-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cara-4-div-punto-3-4 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* Cara con el numero 5 */
+.cara-5 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.cara-5-div-punto-1-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cara-5-div-punto-1-2 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.cara-5-div-punto-3 {
+  display: flex;
+  align-items: center;
+}
+
+.cara-5-div-punto-3 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.cara-5-div-punto-4-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cara-5-div-punto-4-5 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* Cara con el numero 6 */
+.cara-6 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.cara-6-div-punto-1-2-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cara-6-div-punto-1-2-3 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.cara-6-div-punto-4-5-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cara-6-div-punto-4-5-6 span {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
